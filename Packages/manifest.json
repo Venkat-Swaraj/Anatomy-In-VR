@@ -1,6 +1,17 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.atteneder.gltfast",
+        "com.atteneder.ktx"
+      ]
+    }
+  ],
   "dependencies": {
-    "com.atteneder.gltfast": "file:D:/XR/Plugins&Drivers/glTFast-5.0.4/glTFast-5.0.4",
+    "com.atteneder.gltfast": "5.0.4",
+    "com.atteneder.ktx": "2.2.3",
     "com.microsoft.mrtk.accessibility": "file:MixedReality/com.microsoft.mrtk.accessibility-3.0.0-pre.17.tgz",
     "com.microsoft.mrtk.core": "file:MixedReality/com.microsoft.mrtk.core-3.0.0-pre.17.tgz",
     "com.microsoft.mrtk.extendedassets": "file:MixedReality/com.microsoft.mrtk.extendedassets-3.0.0-pre.17.tgz",
@@ -53,6 +64,10 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.microsoft.mrtk.audio": "file:MixedReality/com.microsoft.mrtk.audio-3.0.0-pre.17.tgz",
+    "com.microsoft.mrtk.tts.windows": "file:MixedReality/com.microsoft.mrtk.tts.windows-1.0.1.tgz",
+    "com.microsoft.mrtk.windowsspeech": "file:MixedReality/com.microsoft.mrtk.windowsspeech-3.0.0-pre.17.tgz",
+    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.8.1.tgz"
   }
 }
